@@ -1,0 +1,6 @@
+services:
+  tutorial:
+    image: tutorial
+    build:
+      context: .
+      dockerfile: ./Dockerfile
